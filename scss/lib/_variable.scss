@@ -2,7 +2,8 @@
 
 // Background color
 $background: #fff;
-$bg-light: #f5f5f5;
+$main_color: #115089;
+$main_light: #D6EBFF;
 
 // text color
 $text: #454545;
@@ -14,11 +15,10 @@ $link: #1487bd;
 $hover: darken($link, 10%);
 
 // border
-$border: #ddd;
+$boeder: #dfdfdf;
+$border-light: #ededed
 
 // button
-$btn: #fff;
-$btn-hover: #f5f5f5;
 
 // Media Queries
 $mq-xs: "(max-width: 480px)";

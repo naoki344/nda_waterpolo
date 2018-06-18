@@ -3,7 +3,7 @@
 // Background color
 $background: #fff;
 $main_color: #115089;
-$main_light: #D6EBFF;
+$main_light: rgba( 17, 80, 137, .07 );
 
 // text color
 $text: #454545;
@@ -15,8 +15,9 @@ $link: #1487bd;
 $hover: darken($link, 10%);
 
 // border
-$boeder: #dfdfdf;
+$border: #dfdfdf;
 $border-light: #ededed;
+$border-red: #892525;
 
 // button
 

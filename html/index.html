@@ -2,59 +2,108 @@
 <head>
     <meta lang="js" charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+		<!--link rel="stylesheet" href="./css/style.css" type="text/css" /-->
 		<link rel="stylesheet" href="http://localhost:3000/boilerplate.css" type="text/css" />
 </head>
-<body>
+<body class="body__wrap">
 		<header class="header-top">
       <nav class="header__nav">
           <ul class="header__nav-ul">
-              <li class="header__nav-list" >トップ</li>
-              <li class="header__nav-list" >監督紹介j</li>
+            <li class="header__nav-list" ><a href="#">トップに戻る</a></li>
+              <!--li class="header__nav-list" >活動</li>
               <li class="header__nav-list" >メンバー紹介</li>
-              <li class="header__nav-list" >ギャラリー</li>
-              <li class="header__nav-list" >試合予定</li>
-              <li class="header__nav-list" >試合結果</li>
+              <li class="header__nav-list" >写真</li-->
           </ul>
       </nav>
       <div class="header__img">
-          <img class="header__img-obj" src="" alt="" width="" height="">
       </div>
       <div class="header__text">
           <div class="header__text-nda" >
               <div class="header__text-nda--kanji">防衛大学校</div>
-              <div class="header__text-nda--english">National Deffence Academy</div>
+              <div class="header__text-nda--english"><div>National </div><div>Deffence </div><div>Academy</div></div>
           </div>
           <div class="header__text-polo" >
               <div class="header__text-polo--kanji">水球部</div>
-              <div class="header__text-polo--english">Water Polo Team</div>
+              <div class="header__text-polo--english"><div>Water </div><div>Polo </div><div>Team</div></div>
           </div>
       </div>
 		</header>
 		<main class="main__content">
-        <section class="wrap">
+        <!--section class="wrap">
             <div class="WideItem-wrap">
-                <figure class="WideItem__img"><img src="" alt="" width="" height="" ></figure>
-                <h2 class="WideItem__title">初めまして</h2>
-                <p class="WideItem__discript">防衛大学校水球部です。現在関東学生リーグへ向けて練習中です。</p>
+                <figure class="WideItem__img"><img src="images/sample-article-1.JPG" alt="" width="" height="" ></figure>
+                <div class="WideItem__body">
+                    <h2 class="WideItem__title">初めまして</h2>
+                    <p class="WideItem__discript">防衛大学校水球部です。現在関東学生リーグへ向けて練習中です。</p>
+                </div>
             </div>
-        </section>
-        <section class="wrap">
-            <div class="WideItem-wrap">
-                <figure class="WideItem__img"><img src="" alt="" width="" height="" ></figure>
-                <h2 class="WideItem__title">お知らせ</h2>
-                <p class="WideItem__discript">練習風景を更新しました。ぜひご覧ください。</p>
+        </section-->
+        <h2 class="caption_1">関東学生リーグ結果</h2>
+        <section class="content__wrap">
+            <div class="content__result">
+                <h3 class="opponent">VS 一橋大学</h3>
+                <div class="result">
+                  <div class="result__school">一橋大学</div><div class="point">11</div>
+                </div>
+                <div class="result__split">ー</div>
+                <div class="result">
+                  <div class="result__school">防衛大学校</div><div class="point">20</div>
+                </div>
+                <div class="result__point"><p>島貫8 岡田2 岡村6 湯川4</p></div>
+            </div>
+            <div class="content__result">
+                <h3 class="opponent">VS 上智大学</h3>
+                <div class="result">
+                  <div class="result__school">防衛大学校</div><div class="point">23</div>
+                </div>
+                <div class="result__split">ー</div>
+                <div class="result">
+                  <div class="result__school">上智大学</div><div class="point">8</div>
+                </div>
+                <div class="result__point"><p>島貫10 吉富1 岡村5 湯川5 後藤2</p></div>
+            </div>
+            <div class="content__result">
+                <h3 class="opponent">VS 成蹊大学</h3>
+                <div class="result">
+                  <div class="result__school">成蹊大学</div><div class="point">18</div>
+                </div>
+                <div class="result__split">ー</div>
+                <div class="result">
+                  <div class="result__school">防衛大学校</div><div class="point">7</div>
+                </div>
+                <div class="result__point"><p>島貫4 岡村1 湯川1 網谷1</p></div>
+            </div>
+            <div class="content__result">
+                <h3 class="opponent">VS 東京大学</h3>
+                <div class="result">
+                  <div class="result__school">防衛大学校</div><div class="point">26</div>
+                </div>
+                <div class="result__split">ー</div>
+                <div class="result">
+                  <div class="result__school">成城大学</div><div class="point">12</div>
+                </div>
+                <div class="result__point"><p>岡村８　緒方２　湯川２　内田２</p></div>
+            </div>
+            <div class="content__caption">
+                <div class="caption__image">
+                    <a hre=""><img src="./images/all.jpg"></a>
+                </div>
+                <div class="caption__content">
+                    <h3 class="caption__title">今後の予定</h3>
+                    <p class="caption__text"></p>
+                </div>
             </div>
         </section>
 		</main>
-		<footer>
+		<footer class="footer__wrap" >
       <nav class="footer__nav">
           <ul class="footer__nav-ul">
               <li class="footer__nav-list" >トップ</li>
-              <li class="footer__nav-list" >監督紹介j</li>
+              <!--li class="footer__nav-list" >監督紹介</li>
               <li class="footer__nav-list" >メンバー紹介</li>
               <li class="footer__nav-list" >ギャラリー</li>
               <li class="footer__nav-list" >試合予定</li>
-              <li class="footer__nav-list" >試合結果</li>
+              <li class="footer__nav-list" >試合結果</li-->
           </ul>
       </nav>
       <div class="footer__title">National Deffence Academy Water Polo Team</div> 
